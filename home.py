@@ -7,8 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-with st.sidebar:
+with st.sidebar: #launches sidebar
     st.header("Navigation")
     options = st.selectbox("Choose", ['a','b','c'])
-
 
